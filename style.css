@@ -1,0 +1,11 @@
+body {
+  background: rgb(215,225,238);
+  background: linear-gradient(0deg, rgba(215,225,238,1) 30%, rgba(255,255,255,1) 90%);
+  
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#page {
+  
+
+}
