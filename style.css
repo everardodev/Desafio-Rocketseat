@@ -1,11 +1,55 @@
-body {
-  background: rgb(215,225,238);
-  background: linear-gradient(0deg, rgba(215,225,238,1) 30%, rgba(255,255,255,1) 90%);
-  
-  font-family: 'Fira Sans', sans-serif;
+:root {
+  line-height: 20px;
 }
 
-#page {
+body {
+  background: rgb(110,192,208);
+  background: linear-gradient(0deg, rgba(110,192,208,1) 0%, rgba(85,141,189,1) 90%);
   
+  font-family: 'Fira Sans', sans-serif;
 
+}
+
+body #page {
+  display: grid;
+  justify-items: center;
+}
+
+#page { 
+  background-color: aliceblue;
+  border-radius: 20px;
+
+  height: auto;
+  width: 900px;
+  margin: 48px auto 20px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+main {
+ margin: 50px 50px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p, ul {
+  font-size: 16px;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 20px;
+
+}
+
+footer img {
+ 
 }
